@@ -2,6 +2,10 @@
 <html>
 <head>
   <style>
+  a {
+    text-decoration: none;
+    color: black;
+  }
 .header{
   display: inline-block;
   width: 400px;
@@ -35,8 +39,8 @@
   cursor: pointer;
 }
 #editbutton:hover{
-background-color: black;
-color: #A0AEC3;
+background-color: orange;
+color: lightblue;
 }
 #homepage{
   height: 627px;
@@ -179,7 +183,7 @@ div.first {
 <h2>
 <button onclick="myFunction1()" id="editbutton"><a href="about.html">About</a></button>
 <button onclick="myFunction2()" id="editbutton"><a href="worldcup.html">World Cup</a></button>
-<button onclick="myFunction3()" id="editbutton">News</button>
+<button onclick="myFunction3()" id="editbutton"><a href="news.html">News</a></button>
 <button onclick="myFunction4()" id="editbutton">Transfers</button>
 <button onclick="myFunction5()" id="editbutton">Clubs</button>
 </h2>
@@ -189,15 +193,6 @@ div.first {
   <p class="leftcorner">Created at Phillips Academy</p>
 </div></h4>
 
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-</div>
-</div>
 
 <script>
 var slideIndex = 1;
