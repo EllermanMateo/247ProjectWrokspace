@@ -45,6 +45,7 @@ color: lightblue;
 #homepage{
   height: 627px;
   background-color: #DBE8F9;
+  display: flex;
 }
 #bottomarea{
   background-color: #466289;
@@ -66,10 +67,20 @@ color: lightblue;
   font-family: serif;
   /*dislpay inline-block* CHECK IT OUT*/
 }
-#GroupStage img{
-height:150px;
-width:200px;
-padding:15px;
+.players p{
+  margin-bottom: 0;
+  margin-top: 20px;
+text-align: justify;
+font-size: 30px;
+font-family: monospace;
+line-height: 1.3;
+padding-left: 20px;
+}
+.teams img{
+  width: 20%;
+  height: 95px;
+  margin-top: 20px;
+  border-radius: 10px;
 }
   </style>
 <title>24/7 Project</title>
@@ -89,14 +100,29 @@ padding:15px;
   <button onclick="myFunction4()" id="editbutton"><a href="transfers.html">Transfers</button>
   <button onclick="myFunction5()" id="editbutton"><a href="clubs.html">Clubs</a></button>
 <h3><div id="homepage">
-  <div id="GroupStage">
-<img src="https://raw.githubusercontent.com/bjimenez21/247Project/master/img/GroupA.png">
-<img src="https://raw.githubusercontent.com/bjimenez21/247Project/master/img/GroupB.png">
-<img src="https://raw.githubusercontent.com/bjimenez21/247Project/master/img/GroupD.png">
-<img src="https://raw.githubusercontent.com/bjimenez21/247Project/master/img/GroupE.png">
-<img src="https://raw.githubusercontent.com/bjimenez21/247Project/master/img/GroupF.png">
-<img src="https://raw.githubusercontent.com/bjimenez21/247Project/master/img/GroupG.png">
-<img src="https://raw.githubusercontent.com/bjimenez21/247Project/master/img/GroupH.png">
+    <div class="players">
+    <p>Latest Transfers:</p>
+  <p>Jorginho 50.4m euros Napoli>>>Chelsea</p>
+  <br>
+  <p>William Carvalho 13.3m euros Sporting CP>>>>Real Betis</p>
+  <br>
+  <p>Xherdan Shaqiri 13.5m euros Stoke City>>>Liverpool</p>
+  <br>
+  <p>Clement Lenglet 31m euros Sevilla>>>FC Barcelona</p>
+  <br>
+  <p>Maxime Le Marchand 7.5m euros OGC Nice>>>Fulham</p>
+  </div>
+  <div class="teams">
+  <img src="https://ichef.bbci.co.uk/onesport/cps/480/cpsprodpb/10E98/production/_102527296_jorginho_getty2.jpg">
+  <br>
+  <img src="https://csnglobalfootball.com/wp-content/uploads/2018/07/William-Carvalho-218x150.jpg">
+  <br>
+  <img src="https://www.360nobs.com/wp-content/uploads/2018/06/Xherdan-Shaqiri1-740x419.jpg">
+  <br>
+  <img src="http://bomber.id/source/2018/05/Clement-Lenglet-1.jpg">
+  <br>
+  <img src="http://img.kooora.com/?i=ashrafmks%2Fdonis.jpg">
+  </div>
 </div></h3>
 <h4><div id="bottomarea">
   <p class="leftcorner">Created at Phillips Academy</p>

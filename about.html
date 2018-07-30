@@ -1,95 +1,122 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-  a {
-    text-decoration: none;
-    color: black;
-  }
+ <style>
+ a {
+   text-decoration: none;
+   color: black;
+ }
 .header{
-  display: inline-block;
-  width: 400px;
-  height: 75px;
-  margin:0;
-  /*border: 3px solid red; JUST IN CASE YOU LOSE HEADER AND NEED TO FIND IT*/
-  position: sticky;
-  margin-left: 500px;
+ display: inline-block;
+ width: 400px;
+ height: 75px;
+ margin:0;
+ /*border: 3px solid red; JUST IN CASE YOU LOSE HEADER AND NEED TO FIND IT*/
+ position: sticky;
+ margin-left: 500px;
 }
 .header2{
-  display: inline-block;
-  width: 73px;
-  height: 70px;
-  float: right;
-  margin:0;
-  padding: 0;
+ display: inline-block;
+ width: 73px;
+ height: 70px;
+ float: right;
+ margin:0;
+ padding: 0;
 }
 .designb{
-  text-align: center;
-  background-color: #466289;
-  height: 70px;
+ text-align: center;
+ background-color: #466289;
+ height: 70px;
 }
 #editbutton{
-  height: 23px;
-  border-radius: 5px;
-  width: 105px;
-  border: 2px solid lightblue;
-  background-color: #A0AEC3;
-  font-family: sans-serif;
-  font-size: 15px;
-  cursor: pointer;
+ height: 23px;
+ border-radius: 5px;
+ width: 105px;
+ border: 2px solid lightblue;
+ background-color: #A0AEC3;
+ font-family: sans-serif;
+ font-size: 15px;
+ cursor: pointer;
 }
 #editbutton:hover{
 background-color: orange;
 color: lightblue;
 }
 #homepage{
-  height: 627px;
-  background-color: #DBE8F9;
+ height: 627px;
+ background-color: #DBE8F9;
 }
 #bottomarea{
-  background-color: #466289;
-  height: 70px;
-  margin-top: -20px;
+ background-color: #466289;
+ height: 70px;
+ margin-top: -20px;
 }
 .body{
-  margin: 0;
-  padding: 0;
+ margin: 0;
+ padding: 0;
 }
 .leftcorner{
-  float: left;
-  color: #FA6121;
-  /*border: 2px solid black;*/
-  width:80px;
-  height: 50px;
-  align-content: center;
-  font-size: 14px;
-  font-family: serif;
-  /*dislpay inline-block* CHECK IT OUT*/
+ float: left;
+ color: #FA6121;
+ /*border: 2px solid black;*/
+ width:80px;
+ height: 50px;
+ align-content: center;
+ font-size: 14px;
+ font-family: serif;
+ /*dislpay inline-block* CHECK IT OUT*/
 }
-  </style>
+.prev:hover, .next:hover {
+ background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+ color: #FFB739;
+ font-size: 15px;
+ width: 75%;
+ margin-left: -150px;
+ margin-top: -100px;
+ /*border: 2px solid orange; JUST IN CASE I LOOSE IT.*/
+ position: absolute;
+}
+
+div.first {
+   background: rgba(160, 174, 195, 0.68);
+   height: 50px;
+}
+ </style>
 <title>24/7 Project</title>
 </head>
 <body class="body">
-<img class="header" src="https://previews.dropbox.com/p/thumb/AAKIxp94of_zgJwfwoRjZDBeUDTJjuBTWwOZV4iRQR43NY80A1CsB28VJjv8ey_zl3-sRiTl8_hMCTpXo6tJJ46qsmqO8TwkuxN9xANO7XtTnZB1P_8sR8qRIKkb1-Ozk287iWNRYjBpCEaJiPibh4MQLQIv1POc-WvMesBoC0088g/p.png?size=2048x1536&size_mode=3">
-<img class="header2" src="https://previews.dropbox.com/p/thumb/AAJ1GFucY1P2IKZPOHGaV4hDt6J5wSMcilLeIl72OhQ9NnzML6i5bYxHlS8PSfHblktN55ue8HGkB-HcGJhqVr1bAazK1UhttH5MjaXB7R2w_8mgKJLlSCeNWlClAnRXNq4jWzGsa9Io3Sxf6gxkcH6AZiL0rbjuSb-JerHlnuDxXA/p.jpeg?size=2048x1536&size_mode=3">
-<img class="header2" src="https://previews.dropbox.com/p/thumb/AAKh0r1fv-ZmFj3gv4yj33STQy8NZ147Q7LEGUw42s4YuXbaHXxGpzh3dzC__nL-kDGojJcw7Ub1jYXmGAa1fDAGJj-m4X4W2891nG8RRUPF1jNFrQ5rSudOFT7jSBaFF5cQAfIY9G8L8G5J2yz86yRFDgBzNvXvUXNO6DxPKrwifQ/p.png?preserve_transparency=1&size=2048x1536&size_mode=3">
-<img class="header2" src="https://previews.dropbox.com/p/thumb/AAKNju_lJF_TRep5rrYZQD_PyVzC814-mjjnxToZ_TUssH5rKeA64XnxuM4_mQtZZ_XSz_Wqya1nBAwSGC03kVIIHdhEbKdCeDEJRLioPJz2RAKm032FwukCyGjuX_NuXgRUF4-r86FSR3RiaTqnOzJ6RWDBsESG6EXJdk8uGLAZSA/p.png?preserve_transparency=1&size=2048x1536&size_mode=3">
-<img class="header2" src="https://previews.dropbox.com/p/thumb/AALlaKZbkN-M4G1lon1Fd1XWYzBgztztS6p5AngArevGwkvtqrVlS5FBz71Vptd12c2mT_QutjrJ44H3GJ_hyI1IWpRF7HlnIeLuJaaCE492ytLLf_oU-IwJnW3OanQShgzGMi6GPI9R8YyR_EnovpaeYjWBgt9GFDrMpDjRrvdsJQ/p.png?preserve_transparency=1&size=2048x1536&size_mode=3">
-<img class="header2" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png">
+  <img class="header" src="img/WebsiteLogo.png">
+    <img class="header2" src="img/russiaworldcup.jpg">
+    <img class="header2" src="img/seriea.png">
+    <img class="header2" src="img/ligue1.png">
+    <img class="header2" src="img/bundesliga.png">
+    <img class="header2" src="img/premierleaguelogo.png">
 <div class="designb">
-<h2>
-  <button onclick="myFunction1()" id="editbutton"><a href="about.html">About</a></button>
-  <button onclick="myFunction2()" id="editbutton"><a href="worldcup.html">World Cup</a></button>
-  <button onclick="myFunction3()" id="editbutton"><a href="news.html">News</a></button>
-  <button onclick="myFunction4()" id="editbutton"><a href="transfers.html">Transfers</button>
-  <button onclick="myFunction5()" id="editbutton"><a href="clubs.html">Clubs</a></button>
-</h2>
+  <br>
+<button onclick="myFunction1()" id="editbutton"><a href="about.html">About</a></button>
+<button onclick="myFunction2()" id="editbutton"><a href="worldcup.html">World Cup</a></button>
+<button onclick="myFunction3()" id="editbutton"><a href="news.html">News</a></button>
+<button onclick="myFunction4()" id="editbutton"><a href="transfers.html">Transfers</a></button>
+<button onclick="myFunction5()" id="editbutton"><a href="clubs.html">Clubs</a></button>
 <h3><div id="homepage">
+<br>
+  <h3 style="font-weight:2px;">Welcome to 24/7 Futbol!</h3>
+  <br>
+  <p style="margin-left:250px; margin-right: 250px; text-align: left; font-weight:normal;">
+    This website is dedicated to bringing you the latest futbol news whether it be about the World Cup, Premier League, Bundesliga, Champions League, transfers, etc.
+    Articles will be put up as soon as possible. Just remember, this was made as a summer project and is not a professional endeavor. Thank you for visiting the website and enjoy!
+</p>
 </div></h3>
 <h4><div id="bottomarea">
-  <p class="leftcorner">Created at Phillips Academy</p>
-<script>
+ <p class="leftcorner">Created at Phillips Academy</p>
+</div></h4>
+</div>
 
+<script>
 </script>
 </body>
 </html>
